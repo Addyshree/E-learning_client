@@ -19,7 +19,7 @@ import Lecture from "./pages/lecture/Lecture";
 import { UserData } from "./context/UserContext";
 import { CourseData } from "./context/CourseContext";
 import AdminDashboard from "./admin/Dashboard/AdminDashboard";
-import AdminCourses from "./admin/Courses/Admincourses";
+import AdminCourses from "./admin/Courses/AdminCourses";
 import AdminUsers from "./admin/Users/AdminUsers";
 import Forgotpassword from "./pages/auth/Forgotpassword";
 import ResetPassword from "./pages/auth/ResetPassword";
