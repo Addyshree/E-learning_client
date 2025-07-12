@@ -3,7 +3,7 @@ import "./users.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { server } from "../../main";
-import Layout from "../utils/Layout";
+import Layout from "../Utils/Layout";
 import toast from "react-hot-toast";
 
 const AdminUsers = ({ user }) => {
