@@ -17,7 +17,7 @@ This is the frontend of **EduSphere**, a full-featured LMS with role-based dashb
 - Custom CSS
 - Axios
 - React Router
-- Context API / Redux (if used)
+
 
 ## 🧾 Setup Instructions
 
