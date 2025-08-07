@@ -1,12 +1,39 @@
-# React + Vite
+# 🖥️ EduSphere - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of **EduSphere**, a full-featured LMS with role-based dashboards for students and instructors. Built with **React.js** and **custom CSS**, and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧑‍🏫 Role-based dashboards (Student / Instructor / Admin)
+- 📱 Fully responsive UI with clean layout
+- 🔐 OTP-based email verification (Nodemailer)
+- 📊 Dynamic progress tracking for students
+- 🔑 Secure login, signup, and password reset flows
+- 💳 Razorpay integration for seamless payments
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Custom CSS
+- Axios
+- React Router
+- Context API / Redux (if used)
+
+## 🧾 Setup Instructions
+
+```bash
+git clone https://github.com/your-username/EduSphere-frontend.git
+cd EduSphere-frontend
+npm install
+
+🔐 Environment Variables
+Create a .env file in the client directory:
+
+REACT_APP_BACKEND_URL=https://your-backend-url.onrailway.app
+REACT_APP_RAZORPAY_KEY=your_razorpay_public_key
+
+🚀 Start Frontend
+bash
+Copy
+Edit
+npm start
